@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import Custom from "./components/custom-component";
 
 function App() {
   return (
@@ -10,9 +12,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          <p> 
-            Testando
-          </p>
+          <Custom />
+          <p>Testando</p>
         </div>
         <a
           className="App-link"
