@@ -9,10 +9,10 @@ import CustomButtomClass from "./components/custom-component-class";
 export const ThemeContext = createContext("light");
 
 function App() {
-  const [isOriginal, setIsOriginal] = useState("TATAZINHO");
+  const [isOriginal, setIsOriginal] = useState("use-contexto");
 
   return (
-    <ThemeContext.Provider name={isOriginal}>
+    <ThemeContext.Provider value={isOriginal}>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
