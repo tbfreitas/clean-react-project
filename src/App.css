@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.class-example {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.name-container {
+  border: 0.3px solid #eeee;
+}
